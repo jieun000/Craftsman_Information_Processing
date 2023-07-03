@@ -23,7 +23,13 @@
 		</tr>
 		<c:forEach var="list" items="${lists}">
 			<tr>
-				<td></td>
+				<td>${list.custno}</td>
+				<td>${list.custname}</td>
+				<td>${list.phone}</td>
+				<td>${list.address}</td>
+				<td>${list.joindate}</td>
+				<td>${list.grade}</td>
+				<td>${list.city}</td>
 			</tr>
 		</c:forEach>
 	</table>

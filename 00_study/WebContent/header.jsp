@@ -36,7 +36,7 @@
 	</header>
 	<nav>
 		<a href="">회원 등록</a>
-		<a href="">회원 목록 조회</a>
+		<a href="list.do">회원 목록 조회</a>
 		<a href="">홈으로</a>
 	</nav>
 </body>
