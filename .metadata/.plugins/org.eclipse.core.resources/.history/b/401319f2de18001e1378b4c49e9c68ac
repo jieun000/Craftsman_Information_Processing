@@ -1,0 +1,12 @@
+package unit;
+
+import com.sun.corba.se.pept.transport.Connection;
+
+public class DBManager {
+
+	// DB 연결
+	public static Connection getConnection() {
+		Connection conn = null;
+	}
+	
+}

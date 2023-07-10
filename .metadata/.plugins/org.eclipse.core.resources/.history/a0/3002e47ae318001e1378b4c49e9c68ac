@@ -1,0 +1,12 @@
+package com.member.vo;
+
+public class MemberVO {
+
+	int custno;
+	String custname;
+	int phone;
+	String address;
+	String joindate;
+	String grade;
+	String city;
+}
