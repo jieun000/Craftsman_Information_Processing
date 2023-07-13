@@ -10,47 +10,53 @@
 </head>
 <body>
 	<div class="container">
-		<h2 >멤버 등록 페이지</h2>
-		<form method="post" action="add.do">
+		<h2 style="text-align: center;">멤버 페이지</h2>
+		<form method="post" action="update.do">
 			<table style="border: 1px solid black; text-align: center; margin: auto;">
+				<tr style="display: none">
+					<td>
+						<label for="custname">회원번호</label>
+						<input type="text" name="custno" value="${detail.custno}">
+					</td>	
+				</tr>
 				<tr>
 					<td>
 						<label for="custname">회원성명</label>
-						<input type="text" name="custname">
+						<input type="text" name="custname" value="${detail.custname}">
 					</td>
 				</tr>
 				<tr>
 					<td>
 						<label for="phone">전화번호</label>
-						<input type="text" name="phone">
+						<input type="text" name="phone" value="${detail.phone}">
 					</td>
 				</tr>
 				<tr>
 					<td>
 						<label for="address">주소</label>
-						<input type="text" name="address">
+						<input type="text" name="address" value="${detail.address}">
 					</td>
 				</tr>
 				<tr>
 					<td>
 						<label for="joindate">가입일자</label>
-						<input type="text" name="joindate">
+						<input type="text" name="joindate" value="${detail.joindate}">
 					</td>
 				</tr>
 				<tr>
 					<td>
 						<label for="grade">고객등급</label>
-						<input type="text" name="grade">
+						<input type="text" name="grade" value="${detail.grade}">
 					</td>
 				</tr>
 				<tr>
 					<td>
 						<label for="city">거주지역</label>
-						<input type="text" name="city"></td>
+						<input type="text" name="city" value="${detail.city}"></td>
 				</tr>
 				<tr>
 					<td>
-						<input type="submit" value="등록">
+						<input type="submit" value="수정">
 						<input type="button" value="목록" onclick="location.href='list.do'">
 					</td>
 				</tr>

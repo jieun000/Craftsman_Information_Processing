@@ -10,6 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<div style="height: 300px">
 	<h2 style="text-align: center;">회원 목록</h2>
 	<table border="1" style="text-align: center; margin: auto;">
 		<tr>
@@ -23,7 +24,7 @@
 		</tr>
 		<c:forEach var="list" items="${lists}">
 			<tr>
-				<td>${list.custno}</td>
+				<td><a href="update.do?custno=${list.custno}" style="color: green;">${list.custno}</a></td>
 				<td>${list.custname}</td>
 				<td>${list.phone}</td>
 				<td>${list.address}</td>
@@ -33,7 +34,7 @@
 			</tr>
 		</c:forEach>
 	</table>
-
+</div>
 </body>
 <%@ include file="footer.jsp" %>
 </html>

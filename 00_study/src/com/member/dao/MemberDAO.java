@@ -53,4 +53,91 @@ public class MemberDAO {
 		}
 		return list;
 	}
+	
+	// DB 조회
+	public MemberVO detail(int custno) {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String sql = "select * from member where custno=?";
+		MemberVO vo = new MemberVO();
+		
+		try {
+			conn = DBManager.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, custno);
+			
+			rs = pstmt.executeQuery();
+			if(rs.next()) {
+				vo.setCustno(rs.getInt(1));
+				vo.setCustname(rs.getString(2));
+				vo.setPhone(rs.getString(3));
+				vo.setAddress(rs.getString(4));
+				vo.setJoindate(rs.getString(5));
+				vo.setGrade(rs.getString(6));
+				vo.setCity(rs.getString(7));
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			DBManager.close(conn, pstmt);
+		}
+		return vo;
+	}
+	
+	
+	// DB추가 메서드
+	public void add(MemberVO vo) {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		String sql = "insert into member values(seq_no.nextval, ?, ?, ?, ?, ?, ?)";
+		
+		try {
+			conn = DBManager.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			
+			pstmt.setString(1, vo.getCustname());
+			pstmt.setString(2, vo.getPhone());
+			pstmt.setString(3, vo.getAddress());
+			pstmt.setString(4, vo.getJoindate());
+			pstmt.setString(5, vo.getGrade());
+			pstmt.setString(6, vo.getCity());
+			
+			pstmt.executeUpdate();
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			DBManager.close(conn, pstmt);
+		}
+				
+	}
+	
+	
+	// DB수정 메서드
+	public void update(MemberVO vo) {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		String sql = "update member set custname=?, phone=?, address=?, joindate=?, grade=?, city=? where custno=?";
+		
+		try {
+			conn = DBManager.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, vo.getCustname());
+			pstmt.setString(2, vo.getPhone());
+			pstmt.setString(3, vo.getAddress());
+			pstmt.setString(4, vo.getJoindate());
+			pstmt.setString(5, vo.getGrade());
+			pstmt.setString(6, vo.getCity());
+			pstmt.setInt(7, vo.getCustno());
+			
+			pstmt.executeUpdate();
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			DBManager.close(conn, pstmt);
+		}
+		
+		
+	}
+	
 }
