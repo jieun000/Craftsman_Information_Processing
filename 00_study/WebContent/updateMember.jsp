@@ -58,6 +58,7 @@
 					<td>
 						<input type="submit" value="수정">
 						<input type="button" value="목록" onclick="location.href='list.do'">
+						<input type="button" value="삭제" onclick="location.href='delete.do?custno=${detail.custno}'">
 					</td>
 				</tr>
 			</table>

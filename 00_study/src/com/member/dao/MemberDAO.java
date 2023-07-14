@@ -136,6 +136,27 @@ public class MemberDAO {
 		} finally {
 			DBManager.close(conn, pstmt);
 		}
+				
+		}
+	
+	
+	// 목록 삭제 메서드
+	public void delete(int custno) {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		String sql = "delete from member where custno=?";
+		
+		try {
+			conn = DBManager.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, custno);
+			
+			pstmt.executeUpdate();
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			DBManager.close(conn, pstmt);
+		}
 		
 		
 	}

@@ -18,7 +18,6 @@ public class AddMember extends HttpServlet {
 		
 		request.setCharacterEncoding("utf-8");
 		
-		int custno = Integer.parseInt(request.getParameter("custno"));
 		String custname = request.getParameter("custname");
 		String phone = request.getParameter("phone");
 		String address = request.getParameter("address");
@@ -27,7 +26,6 @@ public class AddMember extends HttpServlet {
 		String city = request.getParameter("city");
 		
 		MemberVO vo = new MemberVO();
-		vo.setCustno(custno);
 		vo.setCustname(custname);
 		vo.setPhone(phone);
 		vo.setAddress(address);
