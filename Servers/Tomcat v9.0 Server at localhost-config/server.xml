@@ -118,12 +118,20 @@
 					prefix="localhost_access_log" suffix=".txt" />
 
 				<Context docBase="00_study" path="/00_study"
-					reloadable="true" source="org.eclipse.jst.jee.server:00_study" >
+					reloadable="true" source="org.eclipse.jst.jee.server:00_study">
 					<Resource auth="Container"
 						driverClassName="oracle.jdbc.OracleDriver" maxIdle="10"
 						maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle"
 						password="1234" type="javax.sql.DataSource"
 						url="jdbc:oracle:thin:@127.0.0.1:1521:xe" username="aaa" />
+				</Context>
+				<Context docBase="01_tableA" path="/tableA" 
+					reloadable="true" source="org.eclipse.jst.jee.server:01_tableA" >
+					<Resource auth="Container"
+						driverClassName="oracle.jdbc.OracleDriver" maxIdle="10"
+						maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle"
+						password="1234" type="javax.sql.DataSource"
+						url="jdbc:oracle:thin:@127.0.0.1:1521:xe" username="aaaaa" />	
 				</Context>
 			</Host>
 		</Engine>
