@@ -18,6 +18,7 @@ public class UpdateServlet extends HttpServlet {
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int no = Integer.parseInt(request.getParameter("no"));
+		
 		TableADAO dao = TableADAO.getInstance();
 		TableAVO vo = dao.detail(no);
 		
@@ -43,5 +44,4 @@ public class UpdateServlet extends HttpServlet {
 		
 		response.sendRedirect("list.do");
 	}
-
 }

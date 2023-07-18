@@ -22,5 +22,4 @@ public class deleteServlet extends HttpServlet {
 		
 		response.sendRedirect("list.do");
 	}
-
 }

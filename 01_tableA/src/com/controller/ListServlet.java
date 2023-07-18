@@ -17,7 +17,6 @@ import com.vo.TableAVO;
 public class ListServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		TableADAO dao = TableADAO.getInstance();
 		List<TableAVO> list = new ArrayList<TableAVO>();
@@ -28,5 +27,4 @@ public class ListServlet extends HttpServlet {
 		request.getRequestDispatcher("list.jsp")
 				.forward(request, response);
 	}
-
 }
