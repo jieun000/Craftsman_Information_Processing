@@ -1,0 +1,312 @@
+[33mcommit eb488bd8b870c999e76f8f4aede793656979b2c9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sun Aug 27 21:12:33 2023 +0900
+
+    WAS_study5.0
+
+[33mcommit 2e634b50b8dbb433c85f7267e593b297361d7192[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sat Aug 26 21:04:58 2023 +0900
+
+    WAS_study3.1
+
+[33mcommit f47eff37ebf8fb6e5417e053e90e97412ef61856[m
+Author: jieun <mondieu0@naver.com>
+Date:   Fri Jul 28 23:31:18 2023 +0900
+
+    S&A 3.02
+
+[33mcommit a3ac90a317230378cbe4dbe064c637c7c1202e78[m
+Author: jieun <mondieu0@naver.com>
+Date:   Thu Jul 27 22:48:54 2023 +0900
+
+    S&A 3.01
+
+[33mcommit ac8f38a8fc2394b93ca0d456f625bf1666a117da[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Jul 24 23:54:51 2023 +0900
+
+    S&A 3.0
+
+[33mcommit c6955a3feec01169e95b6ac38c15e9c04104b3b0[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Jul 24 00:00:57 2023 +0900
+
+    S&A 2.99
+
+[33mcommit dd4445f13862b0aad22d22e90b029d45a671ecdd[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sat Jul 22 22:57:29 2023 +0900
+
+    S&A 2.98
+
+[33mcommit e7db766cf43b22a46ea60637e5219f1c85825d6f[m
+Author: jieun <mondieu0@naver.com>
+Date:   Fri Jul 21 23:53:48 2023 +0900
+
+    S&A 2.97
+
+[33mcommit 0a939f2ed0afb23c4f0eba00e00ab0f15fc0ca72[m
+Author: jieun <mondieu0@naver.com>
+Date:   Thu Jul 20 23:55:09 2023 +0900
+
+    S&A 2.96
+
+[33mcommit 76181eb3ba5f429627897c3dbf868f39f9f95d3b[m
+Author: jieun <mondieu0@naver.com>
+Date:   Wed Jul 19 23:55:22 2023 +0900
+
+    S&A 2.97
+
+[33mcommit 9d9f150127576424ec4c94537dc9d2155ce7622f[m
+Author: jieun <mondieu0@naver.com>
+Date:   Tue Jul 18 23:53:50 2023 +0900
+
+    S&A S&A 2.95
+
+[33mcommit a6b7951b468ec1e0674d64f32e54086340316bfb[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Jul 17 23:48:58 2023 +0900
+
+    WAS_study4.0
+
+[33mcommit f0b0f4289e0d066ad5a514d98f71aaaea28085cf[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sun Jul 16 23:58:31 2023 +0900
+
+    S&A S&A 2.9
+
+[33mcommit 3ae8912c736a762e225adc9b99f99cb11965389d[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sat Jul 15 23:50:57 2023 +0900
+
+    S&A 5.5
+
+[33mcommit 9755603df37d9d3e01171ef262bb53eb0b428b7f[m
+Author: jieun <mondieu0@naver.com>
+Date:   Fri Jul 14 22:01:51 2023 +0900
+
+    WAS_study3.0
+
+[33mcommit 22f88c67474497011ace217982918dd5f8ccc97e[m
+Author: jieun <mondieu0@naver.com>
+Date:   Thu Jul 13 23:58:15 2023 +0900
+
+    S&A 3.3 AND WAS_study2.8
+
+[33mcommit 3cb5058548436a83d64807ae6c6c658bf2e691aa[m
+Author: jieun <mondieu0@naver.com>
+Date:   Wed Jul 12 23:55:49 2023 +0900
+
+    S&A 3.25 AND WAS_study2.3
+
+[33mcommit e43bc49f15ad313c3920d5517e901fdca5e246d3[m
+Merge: c940980 acdddc0
+Author: jieun <mondieu0@naver.com>
+Date:   Wed Jul 12 02:29:50 2023 +0900
+
+    Merge branch 'develop'
+
+[33mcommit c940980609cd238abb2312d79d5b17a4edf2612f[m
+Author: jieun <mondieu0@naver.com>
+Date:   Tue Jul 11 23:56:57 2023 +0900
+
+    S&A 3.17
+
+[33mcommit df5ff78dc69ff0cc0de4465d5120d049f0ac2bc7[m
+Author: jieun <mondieu0@naver.com>
+Date:   Tue Jul 11 00:00:05 2023 +0900
+
+    S&A 3.0
+
+[33mcommit acdddc046a6c232efb29289f634a99a2bad7c20a[m[33m ([m[1;32mdevelop[m[33m)[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Jul 3 23:58:28 2023 +0900
+
+    WAS_study2.0
+
+[33mcommit b3c0ee07551f0fef5144498a62837d55f2304896[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sun Jul 2 23:59:22 2023 +0900
+
+    WAS_study1.0
+
+[33mcommit b6b1e00239498eda5737acf193ff2342c7c68130[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sat Jul 1 23:57:44 2023 +0900
+
+    WAS_study0.02
+
+[33mcommit f5fedaf53f3ae785c1034ec571921ec1f956a08a[m
+Author: jieun <mondieu0@naver.com>
+Date:   Fri Jun 30 22:28:23 2023 +0900
+
+    WAS_study0.0
+
+[33mcommit c2ba22d8d29794bda11b3ad3da16c2fbb5eb9ccd[m
+Author: jieun <mondieu0@naver.com>
+Date:   Tue Jun 27 22:35:05 2023 +0900
+
+    S&A 2.2
+
+[33mcommit 2404cfe55010ff6da33d0145e9a6e264ff442337[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Jun 26 23:52:35 2023 +0900
+
+    S&A 2.1
+
+[33mcommit b63b4e219cb66c06645b75f0e3702103c710b853[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Jun 26 23:37:58 2023 +0900
+
+    Spreadsheet & Access 1.0
+
+[33mcommit 35caeaf3a4c32d4f462adc576817a8369d3a6ddf[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sun Jun 25 14:52:15 2023 +0900
+
+    spreadSheet15
+
+[33mcommit a6e44b04cc072e84df604e3464b84b24a5d44e8a[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sat Jun 24 22:19:45 2023 +0900
+
+    spreadSheet14
+
+[33mcommit dc08b8a09bcca71defab7b3880a36b7ce0051daa[m
+Author: jieun <mondieu0@naver.com>
+Date:   Fri Jun 23 23:10:20 2023 +0900
+
+    spreadSheet13
+
+[33mcommit 97a928e90769779c1d6f07c750cc910cb3abe0f5[m
+Author: jieun <mondieu0@naver.com>
+Date:   Wed Jun 21 23:47:34 2023 +0900
+
+    access06
+
+[33mcommit 9109f8e7fdd9d61b2dd3c4188fd2a32ed65dcd0a[m
+Author: jieun <mondieu0@naver.com>
+Date:   Tue Jun 20 02:38:23 2023 +0900
+
+    access05 & spreadSheet12
+
+[33mcommit 59e4b4ffa57ddc7b3208e61f03017671f6887bb5[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Jun 19 20:17:15 2023 +0900
+
+    spreadSheet12
+
+[33mcommit bd2394719dde6ec0de2a496950ac79a67506248d[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sun Jun 18 23:12:08 2023 +0900
+
+    spreadSheet11
+
+[33mcommit 75f3c2cfd0fec0d9648a875f85e9b151e1049149[m
+Author: jieun <mondieu0@naver.com>
+Date:   Fri Jun 16 20:44:43 2023 +0900
+
+    spreadSheet10
+
+[33mcommit 1443c0e1be27f28811e5ac3655bee9b85fcfb2ea[m
+Author: jieun <mondieu0@naver.com>
+Date:   Thu Jun 15 21:05:47 2023 +0900
+
+    spreadSheet09
+
+[33mcommit 8de4fb1b74585c63700a90d2e221415737da2c52[m
+Author: jieun <mondieu0@naver.com>
+Date:   Wed Jun 14 22:51:50 2023 +0900
+
+    spreadSheet08
+
+[33mcommit f13cdfbcd07b3afbd54fd1d53850a71b8dd92848[m
+Author: jieun <mondieu0@naver.com>
+Date:   Tue Jun 13 23:52:35 2023 +0900
+
+    access04
+
+[33mcommit 02d7b6400a9b5cb92255af5d5a9037e748001d0a[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Jun 12 23:54:09 2023 +0900
+
+    access03
+
+[33mcommit 3880528381e07d2bd7a766df81596fb5a1e633f2[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sun Jun 11 23:41:43 2023 +0900
+
+    spreadSheet07
+
+[33mcommit 15e1d1834466176ba4af052cadeb89ce6c668295[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sat Jun 10 23:52:40 2023 +0900
+
+    spreadSheet06
+
+[33mcommit 02806a4f168c2e9017aebf0db3acca3da5856c9a[m
+Author: jieun <mondieu0@naver.com>
+Date:   Thu Jun 8 00:26:44 2023 +0900
+
+    access02
+
+[33mcommit abb64eb5636b32ca02bebb7e0f6838db87b5d8bf[m
+Author: jieun <mondieu0@naver.com>
+Date:   Wed Jun 7 23:47:37 2023 +0900
+
+    access01
+
+[33mcommit e07326806e430763f768a4e9aa213b21bd096fe7[m
+Author: jieun <mondieu0@naver.com>
+Date:   Tue Jun 6 23:54:47 2023 +0900
+
+    access00
+
+[33mcommit a3f9a1aaf7b093005c181b6c82ce46f0221ab823[m
+Author: jieun <mondieu0@naver.com>
+Date:   Tue May 23 02:19:11 2023 +0900
+
+    spreadSheet05
+
+[33mcommit 8aa4e0c223f5ae0174c485b67d83f35c56d7241e[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon May 22 20:20:06 2023 +0900
+
+    spreadSheet04
+
+[33mcommit 899b4134ab94f5775f0e8bd4381a38709d97d03e[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sun May 21 23:42:51 2023 +0900
+
+    spreadSheet03
+
+[33mcommit c6042e8e4ca239f4300dc33f90c0370f47e10a6c[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sat May 20 23:58:54 2023 +0900
+
+    spreadSheet2
+
+[33mcommit f90cb47263b38699b198c5d8a66541554a8feaed[m
+Author: jieun <mondieu0@naver.com>
+Date:   Fri May 19 23:39:08 2023 +0900
+
+    spreadSheet01
+
+[33mcommit 5d24eb72e746edcfaf22b5890ea355a6ab27959b[m
+Author: jieun <mondieu0@naver.com>
+Date:   Mon Mar 20 14:57:43 2023 +0900
+
+    04
+
+[33mcommit 2741ff841dbdb00465e3c5fdbae40b4c73cbdf3e[m
+Author: jieun <mondieu0@naver.com>
+Date:   Sat Mar 18 23:11:50 2023 +0900
+
+    02 & 03
+
+[33mcommit 61319cabe71b81a17cd9d7ffafab20285838cb90[m
+Author: jieun <mondieu0@naver.com>
+Date:   Fri Mar 17 23:37:40 2023 +0900
+
+    01
