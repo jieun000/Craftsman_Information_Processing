@@ -8,12 +8,8 @@
  	try {
  		Class.forName("oracle.jdbc.OracleDriver");
 		con = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/xe","eee","1234");
-		pstmt = con.prepareStatement("select max(custno) from member_tbl_04");
+		pstmt = con.prepareStatement("select * from member_tbl_04");
 		rs = pstmt.executeQuery();
-	 	int custno = 10001;
-		if(rs.next()) {
-			custno = rs.getInt(1)+1;
-		}
 %>
 <!DOCTYPE html>
 <html>
@@ -23,15 +19,6 @@
 <style type="text/css">
 	* { margin: 0; padding: 0; }
 </style>
-<script type="text/javascript">
-	function checkForm(f) {
-		if(f.custname.value.trim="") {
-			alert("회원성명 잊었어");
-			f.custname.focus();
-			return false;
-		}
-	}
-</script>
 </head>
 <body>
 	<header style="background: violet; color: white; 
@@ -47,45 +34,39 @@
 		<a href="joinForm.jsp">회원 등록</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	</nav>
 	<section>
-	<h2>쇼핑몰 회원 관리 프로그램</h2>
-		<form action="joinProcess.jsp" onsubmit="return ckeckForm(this)">
-			<table border="1" style="margin: auto; text-align: center;">
-				<tr>
-					<td>회원번호(자동생성)</td>
-					<td><input type="text" name="custno" value="<%=custno%>"/></td>				
-				</tr>
-				<tr>
-					<td>회원성명</td>
-					<td><input type="text" name="custname" /></td>				
-				</tr>
-				<tr>
-					<td>전화번호</td>
-					<td><input type="text" name="phone" /></td>				
-				</tr>
-				<tr>
-					<td>회원주소</td>
-					<td><input type="text" name="address" /></td>				
-				</tr>
-				<tr>
-					<td>가입일자</td>
-					<td><input type="text" name="joindate" /></td>				
-				</tr>
-				<tr>
-					<td>회원등급 [A:VIP, B:일반, C:직원]</td>
-					<td><input type="text" name="grade" /></td>				
-				</tr>
-				<tr>
-					<td>도시코드</td>
-					<td><input type="text" name="city" /></td>				
-				</tr>
-				<tr>
-					<td colspan="2">
-						<input type="submit" value="등록" />
-						<input type="button" value="조회" onclick="location.href='memberForm.jsp'" />
-					</td>		
-				</tr>
-			</table>
-		</form>
+	<h2>쇼핑몰 회원 목록</h2>
+		<table border="1" style="margin: auto; text-align: center;">
+			<tr>
+				<td>회원번호</td>
+				<td>회원성명</td>
+				<td>전화번호</td>
+				<td>회원주소</td>
+				<td>가입일자</td>
+				<td>회원등급</td>
+				<td>도시코드</td>
+			</tr>
+<%
+	if(rs.next()) {
+		do {
+			String grade = "직원";
+			if(rs.getString(6).equals("A")) grade = "VIP";
+			if(rs.getString(6).equals("B")) grade = "일반";
+%>
+			<tr>
+				<td><%=rs.getString(1) %></td>				
+				<td><%=rs.getString(2) %></td>				
+				<td><%=rs.getString(3) %></td>				
+				<td><%=rs.getString(4) %></td>				
+				<td><%=rs.getString(5).substring(0,10) %></td>				
+				<td><%=grade %></td>				
+				<td><%=rs.getString(7) %></td>				
+			</tr>
+			
+<%
+		} while(rs.next());
+	}
+%>
+		</table>
 	</section>
 	<footer style="background: violet; color: white; 
 				text-align: center; line-height: 100px;
