@@ -1,13 +1,8 @@
 INDEX VERSION 1.4+C:\Users\mondi\Desktop\A\Craftsman_Information_Processing\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3408684920.index
-2620461657.index
 934349878.index
 255588061.index
-1547090644.index
-1516846982.index
-2930537911.index
 2610588263.index
-415080580.index
-2350660670.index
+540498543.index
 2735771788.index
-4173242717.index
+2350660670.index
+415080580.index
