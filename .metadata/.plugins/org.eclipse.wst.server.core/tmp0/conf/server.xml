@@ -104,7 +104,7 @@
 
 				
 				
-			<Context docBase="C:\Users\mondi\Desktop\A\Craftsman_Information_Processing\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\06_tableF" path="" reloadable="true" source="org.eclipse.jst.jee.server:06_tableF"/></Host>
+			<Context docBase="C:\Users\mondi\Desktop\A\Craftsman_Information_Processing\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\07_tableG" path="" reloadable="true" source="org.eclipse.jst.jee.server:07_tableG"/></Host>
 		</Engine>
 	</Service>
 </Server>
