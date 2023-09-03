@@ -104,7 +104,7 @@
 
 				
 				
-			<Context docBase="07_tableG" path="/" reloadable="true" source="org.eclipse.jst.jee.server:07_tableG"/></Host>
+			<Context docBase="08_tableH" path="/08_tableH" reloadable="true" source="org.eclipse.jst.jee.server:08_tableH"/></Host>
 		</Engine>
 	</Service>
 </Server>
