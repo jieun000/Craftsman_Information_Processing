@@ -1,0 +1,51 @@
+create table tbl_audition (
+	audition_no number(8) not null primary key,
+	artist_id char(4),
+	mento_id char(4),
+	mento_name char(20),
+	point number(3)
+);
+insert into tbl_audition values(1001, 'A001', 'J001', '가멘토', 78);
+insert into tbl_audition values(1002, 'A002', 'J002', '나멘토', 80);
+insert into tbl_audition values(1003, 'A003', 'J003', '다멘토', 86);
+insert into tbl_audition values(1004, 'A004', 'J001', '가멘토', 96);
+insert into tbl_audition values(1005, 'A005', 'J002', '나멘토', 76);
+insert into tbl_audition values(1006, 'A006', 'J003', '다멘토', 75);
+insert into tbl_audition values(1007, 'A007', 'J001', '가멘토', 85);
+insert into tbl_audition values(1008, 'A008', 'J002', '나멘토', 86);
+insert into tbl_audition values(1009, 'A009', 'J003', '다멘토', 90);
+insert into tbl_audition values(1010, 'A010', 'J001', '가멘토', 78);
+insert into tbl_audition values(1011, 'A011', 'J002', '나멘토', 78);
+insert into tbl_audition values(1012, 'A012', 'J003', '다멘토', 92);
+
+
+create table tbl_artist (
+	artist_id char(4) not null primary key,
+	artist_name varchar2(20),
+	artist_gender char(1),
+	talent char(2),
+	agency varchar2(30)
+);
++ 생년월일
+insert into tbl_artist values('A001','김가수','F','01','A엔터테인먼트');
+insert into tbl_artist values('A002','나가수','M','02','A엔터테인먼트');
+insert into tbl_artist values('A003','다가수','F','03','A엔터테인먼트');
+insert into tbl_artist values('A004','라가수','M','01','B엔터테인먼트');
+insert into tbl_artist values('A005','마가수','F','02','B엔터테인먼트');
+insert into tbl_artist values('A006','바가수','M','03','B엔터테인먼트');
+insert into tbl_artist values('A007','사가수','F','01','C엔터테인먼트');
+insert into tbl_artist values('A008','아가수','M','02','C엔터테인먼트');
+insert into tbl_artist values('A009','자가수','F','03','C엔터테인먼트');
+insert into tbl_artist values('A010','차가수','M','01','D엔터테인먼트');
+insert into tbl_artist values('A011','카가수','F','02','D엔터테인먼트');
+insert into tbl_artist values('A012','타가수','M','03','D엔터테인먼트');
+
+select a.artist_id, a.artist_name, a.artist_gender, sum(b.point), avg(b.point), row_number() over (order by sum(b.point) desc) 
+from tbl_artist a 
+inner join tbl_audition b 
+on a.artist_id = b.artist_id 
+group by a.artist_id, a.artist_name, a.artist_gender 
+order by sum(b.point) desc;
+
+
+select a.artist_id, a.artist_name, a.artist_gender, sum(b.point), avg(b.point), row_number() over(order by sum(b.point) desc) from tbl_artist a inner join tbl_audition b on a.artist_id = b.artist_id group by a.artist_id, a.artist_name, a.artist_gender order by sum(b.point) desc;
